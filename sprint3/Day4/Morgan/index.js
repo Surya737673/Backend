@@ -12,7 +12,7 @@ app.use(morgan('BODY- :body, METHOD- :method, STATUS- :status, RESPONSE-LENGTH- 
 
 
 app.get("/",(req,res)=>{
-    res.send("Hello, My name is Parth Bisht")
+    res.send("Hello")
 })
 
 app.post("/post",(req,res)=>{

@@ -23,7 +23,7 @@ app.get("/",(req,res)=>{
 
 app.post("/post",validate(postValidation, {}, {}),(req,res)=>{
     console.log(req.body);
-    res.send("Printed your data in console");
+    res.send("data in console");
 })
 
 app.use(function(err, req, res, next) {
